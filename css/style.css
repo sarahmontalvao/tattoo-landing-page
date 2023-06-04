@@ -1,0 +1,275 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+#principal{
+	width: 100%;
+	height: 100vh;
+	background-image:url(../img/fundo1.jpg) ;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+h3
+{
+	color: white;
+	font-size: 1em;
+}
+
+
+Header{
+	height: 100px;
+	
+}
+
+a{
+	background: red;
+	padding:15px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	
+}
+
+a:hover{
+	padding: 15px 25px;
+	background: white;
+	color: red;
+	transition: 0.5s;
+	
+}
+
+	
+
+#historia{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5em;
+	color: rgb(255, 255, 255);
+	background: black;
+	gap: 3em;
+	
+
+}
+
+
+p{
+	align-self: center;
+	font-size:0.9em ;
+	line-height: 30px;
+	font-family: 'Inconsolata', monospace;
+	
+}
+#historia img{
+	height: 30em;
+	width: 25em;
+	border-radius: 20px;
+}
+
+
+#projetos h3{
+	text-align: center;
+	background-color: #ad0c0c7d;
+	padding: 1.5em;
+	width: 100%;
+	font-size: 1em;
+	
+}
+
+#projetos{
+	background: black;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 3em;
+	align-items: center;
+}
+
+#projetos h1{
+	color: white;
+	margin: 0;
+	padding: 100px;
+	
+}
+
+.projeto{
+	height: 400px;
+	width: 250px;
+	border-radius: 20px;
+}
+
+
+
+
+
+ #contatos{
+	background-color: black;
+	color: white;
+	font-size: 1em;	
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 3em;
+}
+
+
+
+
+
+form{
+	background-color: rgba(125, 66, 66, 0.497);
+	border-radius: 20px;
+	padding: 50px;
+	
+	
+}
+
+form h1{
+	text-align: center;
+}
+
+input,label{
+	display: block;
+	height: 40px;
+	border-radius: 20px;
+	margin: 10px auto;
+	text-align: center;
+	max-width: 100%;
+}
+
+label{
+	height: 20px;
+}
+
+.botao{
+margin-top: 20px;
+width: 400px;
+height: 50px;
+cursor: pointer;
+}
+
+
+#container-rodape  {
+	background: rgb(126, 78, 78);
+	color: rgb(133, 10, 10);
+	font-size: 0.9em;
+	text-align: center;
+}
+
+h1{
+	margin: 0;
+}
+
+@media (max-width : 935px){
+	#titulo img{
+	height: 24rem;
+	}
+
+	#historia{
+	
+	height: 100vh;
+	}
+
+	#principal{
+	width: 100%;
+	height: 100vh;}
+	
+	#historia img{
+	height: 300px;
+	width: 300px;
+	}
+
+	#historia p {
+	font-size: 0.8em;
+	line-height: 25px;
+	}
+
+	.botao-contatos{
+	padding:10px;
+	border-radius: 5px;
+	font-size: 1.3em;
+	}
+
+	#projetos{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 3em;
+		height: 100%;
+		align-items: center;
+		justify-content: space-around;
+		
+	}
+
+	.projeto{
+	height: 30em;
+	}
+
+	
+}
+
+@media (max-width : 680px){
+
+	#historia{
+		height: 100vh;
+		flex-direction: column;
+		align-items: center;
+		}
+		
+		#historia img{
+		height: 300px;
+		width: 300px;
+		}
+	
+		#historia p {
+		font-size: 0.7em;
+		
+		}
+}
+
+
+	
+	 
+	  
+
+@media (max-width : 390px){
+
+	#titulo img{
+		height: 20rem;
+		}
+	
+		#historia {
+		padding: 2em;
+		}
+		
+		#historia img{
+			height: 15em;
+			width: 16em;
+			}
+
+		.projeto{
+		height: 22em;
+		}
+	
+		#contatos{
+			font-size: 0.8em;	
+			padding: 1.5em;
+		}
+		
+ }
+
+
+
+
